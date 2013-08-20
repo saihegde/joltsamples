@@ -1,0 +1,22 @@
+[
+    {
+        "operation": "shift",
+        "spec": {
+            "*": {
+                    "value": "children.&1.Value",
+                    "$": "children.&1.title"
+            }
+        }
+    },
+    {
+        "operation": "default",
+        "spec": {
+            "title" : "id",
+            "children" : {
+                "*" : {
+                }
+            }
+        }
+    }
+    
+]

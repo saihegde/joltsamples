@@ -1,0 +1,445 @@
+{
+        "id": {
+            "_time": 1375738275,
+            "_machine": -232704068,
+            "_inc": 1048885742,
+            "_new": false
+        },
+        "caseDecisionId": 5333103104,
+        "IntegratedCaseId": 5332968854,
+        "programBenefitId": 6772100277835480000,
+        "decisionCreationDate": "Aug 5, 2013 3:31:14 PM",
+        "eligibilityRuleResultList": [
+            {
+                "id": {
+                    "_time": 1375738274,
+                    "_machine": -232704068,
+                    "_inc": 1048885740,
+                    "_new": false
+                },
+                "benefitTypeCode": "BT112",
+                "benefitTypeDescription": "ABD",
+                "useInEditEvidence": false,
+                "integratedCaseId": 5332968854,
+                "programCaseId": 5332969456,
+                "ignoreVerificationCheck": false,
+                "calculationDate": "Aug 1, 2013 12:00:00 AM",
+                "caseMemberDetailsMap": {
+                    "EVA GARDNER": {
+                        "fullName": "EVA GARDNER",
+                        "firstName": "",
+                        "middleName": "",
+                        "lastName": "",
+                        "suffix": "",
+                        "age": 95,
+                        "dateOfBirth": "Oct 7, 1918 12:00:00 AM",
+                        "concernRoleId": 5332968821,
+                        "caseParticipantRoleId": 5332968855,
+                        "citizenshipStatusDescription": "U.S. Citizen",
+                        "citizenshipStatusCode": "CC1",
+                        "genderCode": "F",
+                        "genderDescription": "Female",
+                        "focusPerson": true,
+                        "headOfHousehold": false,
+                        "aged": true,
+                        "blind": false,
+                        "disabled": false,
+                        "primaryWageEarner": false,
+                        "alien": false,
+                        "alienHasSponsor": false,
+                        "alienSponsorHasSpouse": false,
+                        "pregnant": false,
+                        "subjectToFiveYearBarInd": false,
+                        "fiveYearBarExpiresThisMonthInd": false,
+                        "student": false,
+                        "socialSecurityNumber": 47750707,
+                        "householdMemberStatusCode": "MS1",
+                        "householdMemberStatusDescription": "Member is eligible"
+                    }
+                },
+                "basicNonFinancialDetailsMap": {
+                    "EVA GARDNER": {
+                        "memberRuleResultDetailsList": [
+                            {
+                                "memberName": "EVA GARDNER",
+                                "ruleCategory": "Other Benefit Requirement",
+                                "ruleResultStatus": false,
+                                "ruleName": "Row 1 Basic_Medical_ApplicationOfOtherBenefit",
+                                "ruleDescription": "Member Required to be enrolled for Medicare PartB and Applied for Medicare Part B Benefit"
+                            },
+                            {
+                                "memberName": "EVA GARDNER",
+                                "ruleCategory": "Other Benefit Requirement",
+                                "ruleResultStatus": false,
+                                "ruleName": "Row 1 Basic_Medical_ApplicationOfOtherBenefit",
+                                "ruleDescription": "Member Required to be enrolled for Medicare PartB and Applied for Medicare Part B Benefit"
+                            },
+                            {
+                                "memberName": "EVA GARDNER",
+                                "ruleCategory": "Social Security",
+                                "ruleResultStatus": true,
+                                "ruleName": "Row 1 Basic_Medical_SocialSecurity",
+                                "ruleDescription": "Member Has SSN"
+                            },
+                            {
+                                "memberName": "EVA GARDNER",
+                                "ruleCategory": "Utah Residency",
+                                "ruleResultStatus": true,
+                                "ruleName": "Row 1 Basic_Common_UtahResident",
+                                "ruleDescription": "Member is a Utah Resident"
+                            },
+                            {
+                                "memberName": "EVA GARDNER",
+                                "ruleCategory": "Citizenship",
+                                "ruleResultStatus": true,
+                                "ruleName": "Row 4 Basic_Common_Citizenship",
+                                "ruleDescription": "Member is a US Citizen , Authentication and Identity Level Codes Exist"
+                            },
+                            {
+                                "memberName": "EVA GARDNER",
+                                "ruleCategory": "TPL",
+                                "ruleResultStatus": true,
+                                "ruleName": "Row 1 Basic_Medical_TPLRequirement",
+                                "ruleDescription": "TPL Requirement Has Been Met"
+                            }
+                        ],
+                        "citizenshipRequirementMet": true,
+                        "alienRequirementMet": false,
+                        "citizenshipAlienRequirementMet": true,
+                        "utahResidencyRequirementMet": true,
+                        "socialSecurityRequirementMet": true,
+                        "livingArrangementRequirementMet": true,
+                        "otherBenefitRequirementMet": true,
+                        "tplRequirementMet": true,
+                        "medicalSupportEnforcementMet": true,
+                        "memberPassedBasicVerification": true,
+                        "memberPassedFinancialVerification": true
+                    }
+                },
+                "memberFinancialSummaryDetails": {
+                    "EVA GARDNER": {
+                        "concernRoleName": "EVA GARDNER",
+                        "totalCountableEarnedIncomeAmount": 0,
+                        "totalCountableUnearnedIncomeAmount": 915,
+                        "totalCountableIncomeAmount": 915,
+                        "totalDeemedIncomeAmount": 0,
+                        "deductionCalculationResult": []
+                    }
+                },
+                "configurationDetailsListMap": {
+                    "Other Benefit Type Determination": {
+                        "EVA GARDNER": [
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 7 Config_Medical_MemberRecievingBenefit",
+                                "ruleDescription": "Member Receiving Social Security Benefits"
+                            },
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 7 Config_Medical_MemberRecievingBenefit",
+                                "ruleDescription": "Member Receiving Social Security Benefits"
+                            },
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 6 Config_Medical_MemberRecievingBenefit",
+                                "ruleDescription": "Medical - Member is receiving Medicare Part A."
+                            },
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 6 Config_Medical_MemberRecievingBenefit",
+                                "ruleDescription": "Medical - Member is receiving Medicare Part A."
+                            },
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 2 Config_Medical_MemberRecievingBenefit",
+                                "ruleDescription": "Medical - Member is receiving Medicare Part B."
+                            },
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 2 Config_Medical_MemberRecievingBenefit",
+                                "ruleDescription": "Medical - Member is receiving Medicare Part B."
+                            }
+                        ]
+                    },
+                    "Living Arrangement": {
+                        "EVA GARDNER": [
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 1 Config_Common_ResidentOfHouseholdOrInstitution",
+                                "ruleDescription": "Medical - Living At Home"
+                            },
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 1 Config_Medical_ValidLivingArrangement",
+                                "ruleDescription": "Medical - Valid Living Arrangement-At Home"
+                            }
+                        ]
+                    },
+                    "Martial Status Group": {
+                        "EVA GARDNER": [
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 7 Config_Common_MartialStatusGroup",
+                                "ruleDescription": "Member is an unmarried person (Never Married)."
+                            }
+                        ]
+                    },
+                    "TPL Cooperation": {
+                        "EVA GARDNER": [
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 1 Config_Medical_TPLCooperation",
+                                "ruleDescription": "Primary Member Cooperating with TPL.  Meets TPL requirement."
+                            }
+                        ]
+                    },
+                    "Other Benefit Requirement": {
+                        "EVA GARDNER": [
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 1 Config_Medical_OtherBenefitRequirement",
+                                "ruleDescription": "Member is aged 65 or over and a US citizen.  Required for Medicare Part B."
+                            }
+                        ]
+                    },
+                    "Relationship Role": {
+                        "EVA GARDNER": [
+                            {
+                                "concernRoleName": "EVA GARDNER",
+                                "ruleName": "Row 2 Config_Medical_RelationshipRole",
+                                "ruleDescription": "Focus Member"
+                            }
+                        ]
+                    }
+                },
+                "basicMemberFinancialDetails": {
+                    "basicMemberIncomeDetails": {
+                        "Unearned Income": {
+                            "EVA GARDNER": [
+                                {
+                                    "concernRoleId": 5332968821,
+                                    "concernRoleName": "EVA GARDNER",
+                                    "incomeCategory": "Unearned Income",
+                                    "earnedOrUnearnedIncomeType": "Unearned Income",
+                                    "actualIncomeAmount": 915,
+                                    "actualExpenseAmount": 0,
+                                    "calculatedIncomeAmount": 915,
+                                    "calculatedExpenseAmount": 0,
+                                    "excessAmount": 0,
+                                    "incomeTypeCode": "UI1044",
+                                    "incomeTypeDesc": "Social Security",
+                                    "farmIncome": false,
+                                    "evidenceId": 5332968931,
+                                    "ruleName": "Row 1 Income_Common_Unearned_Calculation",
+                                    "ruleDescription": "Count Unearned income amount if the deduction type is not entered"
+                                }
+                            ]
+                        }
+                    },
+                    "basicMemberExpenseDetails": {}
+                },
+                "programDeterminationDetailsMap": {
+                    "EVA GARDNER": {
+                        "benefitSubTypeList": [
+                            "100% Poverty Level. (BST137)",
+                            "Medically Needy. (BST160)"
+                        ],
+                        "memberRuleResultDetailsList": []
+                    }
+                },
+                "programHouseholdCompositionDetails": {
+                    "deemingType": "",
+                    "householdCompMemberEligibilityDetails": {
+                        "EVA GARDNER": {
+                            "concernRoleName": "EVA GARDNER",
+                            "householdMemberStatusCode": "MS1",
+                            "householdMemberStatusDesc": "Member is eligible",
+                            "incomeDeemingTypeList": [
+                                "Self. (IDT6)"
+                            ],
+                            "memberRuleResultDetailsList": [
+                                {
+                                    "memberName": "EVA GARDNER",
+                                    "ruleCategory": "Household Composition And Status Determination",
+                                    "ruleResultStatus": false,
+                                    "ruleName": "Row 2 Program_Medical_ABD_HouseholdComposition",
+                                    "ruleDescription": "ABD - Disabled focus person.",
+                                    "coaCode": ""
+                                }
+                            ]
+                        }
+                    },
+                    "memberRuleResultDetailsList": []
+                },
+                "memberAssetDetailsMap": {
+                    "EVA GARDNER": {
+                        "concernRoleId": 5332968821,
+                        "concernRoleName": "EVA GARDNER",
+                        "totalCountableAssetAmount": 650,
+                        "totalExcludedAssetAmount": 0,
+                        "totalExemptedAssetAmount": 0,
+                        "burialFundExclusionUnusedAmount": 1500,
+                        "burialFundExcludedAmount": 0,
+                        "assetCategoryDetailsMap": {
+                            "BFE Details": {
+                                "totalCountableAssetAmount": 0,
+                                "totalExcludedAssetAmount": 0,
+                                "totalExemptedAssetAmount": 0,
+                                "assetCountableExcludedDetailsMap": {
+                                    "BFE Calculation": {
+                                        "assetAmount": 0,
+                                        "extendedDescriptionList": [
+                                            "Start Calculation.  BFE available amount is [1500.0].",
+                                            "End Calculation.  BFE excluded amount is [0.0].  Remaining (unused) BFE Amount [1500.0]"
+                                        ]
+                                    }
+                                }
+                            },
+                            "Vehicle": {
+                                "totalCountableAssetAmount": 0,
+                                "totalExcludedAssetAmount": 0,
+                                "totalExemptedAssetAmount": 0,
+                                "assetCountableExcludedDetailsMap": {
+                                    "Pre-Exclusion": {
+                                        "assetAmount": 0,
+                                        "extendedDescriptionList": [
+                                            "Exclude Vehicle [$1000.0]. Rule Name [Row 5 Asset_Common_Vehicle_Calculation]. Rule Description [Owned by Focus Person]."
+                                        ]
+                                    }
+                                }
+                            },
+                            "Liquid Asset": {
+                                "totalCountableAssetAmount": 650,
+                                "totalExcludedAssetAmount": 0,
+                                "totalExemptedAssetAmount": 0,
+                                "assetCountableExcludedDetailsMap": {
+                                    "Calculation": {
+                                        "assetAmount": 650,
+                                        "extendedDescriptionList": [
+                                            "Count Liquid Asset of type Savings Account [$27]. Rule Name [Row 1 Asset_Common_LiquidAsset_Calculation]. Rule Description [Member Has Liquid Asset. Not Exempted. Liquid Asset Type is Countable as per rate table. Liquid Asset Type is not designated for Burial Fund. Count the percentage of amount owned by the member.].",
+                                            "Count Liquid Asset of type Checking Account [$623]. Rule Name [Row 1 Asset_Common_LiquidAsset_Calculation]. Rule Description [Member Has Liquid Asset. Not Exempted. Liquid Asset Type is Countable as per rate table. Liquid Asset Type is not designated for Burial Fund. Count the percentage of amount owned by the member.]."
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "householdFinancialBenefitDetails": {
+                    "householdMembers": [
+                        "EVA GARDNER"
+                    ],
+                    "householdSize": 1,
+                    "incomeLimitAmount": 0,
+                    "groupFinancialSummaryDetails": {
+                        "groupType": "GFS2",
+                        "groupMemberNameList": [
+                            "EVA GARDNER"
+                        ],
+                        "totalCountableEarnedIncomeAmount": 0,
+                        "totalCountableUnearnedIncomeAmount": 915,
+                        "totalCountableIncomeAmount": 915,
+                        "totalDeemedIncomeAmount": 0,
+                        "deductionCalculationResult": []
+                    },
+                    "categoryOfAidDetails": {},
+                    "totalCountableEarnedIncomeAmount": 0,
+                    "totalCountableUnearnedIncomeAmount": 895,
+                    "totalCountableIncomeAmount": 895,
+                    "totalDeemedIncomeAmount": 0,
+                    "deductionCalculationResult": [
+                        {
+                            "ruleName": "Row 1 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Exclude BIA Before Applying General Income Disregard",
+                            "totalUnearnedIncomeAmount": 915,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 915,
+                            "evaluatedRuleDescription": "Subtract Total Unearned Income Of Type BIA GA(UI10) [ $0 ] From Total Unearned Income [ $915 ]."
+                        },
+                        {
+                            "ruleName": "Row 2 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Exclude VA Needs Before Applying General Income Disregard",
+                            "totalUnearnedIncomeAmount": 915,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 915,
+                            "evaluatedRuleDescription": "Subtract Total Unearned Income Of Type VA Needs Based Income(UI84) [ $0 ] From Total Unearned Income [ $915 ]."
+                        },
+                        {
+                            "ruleName": "Row 3 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD- Apply $20 General Income Disregard",
+                            "totalUnearnedIncomeAmount": 895,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 895,
+                            "evaluatedRuleDescription": "Subtract Actual General Income Disregard [ $20 ] From Total Unearned Income [ $915 ]. Remaining General Income Disregard Balance [ $0 ]."
+                        },
+                        {
+                            "ruleName": "Row 4 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Include BIA After Applying General Income Disregard",
+                            "totalUnearnedIncomeAmount": 895,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 895,
+                            "evaluatedRuleDescription": "Add Total Unearned Income Of Type BIA GA(UI10) [ $0 ] To Total Unearned Income [ $895 ]."
+                        },
+                        {
+                            "ruleName": "Row 5 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Include VA Needs After Applying General Income Disregard",
+                            "totalUnearnedIncomeAmount": 895,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 895,
+                            "evaluatedRuleDescription": "Add Total Unearned Income Of Type VA Needs Based Income(UI84) [ $0 ] To Total Unearned Income [ $895 ]."
+                        },
+                        {
+                            "ruleName": "Row 8 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Impairment Related Work Expenses.",
+                            "totalUnearnedIncomeAmount": 895,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 895,
+                            "evaluatedRuleDescription": "Subtract Allowable Actual Expense Of Type Impairment-Related Work Expenses ( AET2 ) Amount [ $0 ] From Total Earned Income [ $0 ]."
+                        },
+                        {
+                            "ruleName": "Row 9 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Self Employment Loss Deduction",
+                            "totalUnearnedIncomeAmount": 895,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 895,
+                            "evaluatedRuleDescription": "Subtract Self Employment Loss Income Amount [ $0 ] From Total Earned Income [ $0 ]."
+                        },
+                        {
+                            "ruleName": "Row 10 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Apply $20 General Income Disregard Excess",
+                            "totalUnearnedIncomeAmount": 895,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 895,
+                            "evaluatedRuleDescription": "Subtract Remaining General Income Disregard [ $0 ] From Total Earned Income [ $0 ]."
+                        },
+                        {
+                            "ruleName": "Row 11 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Earned Income Deduction ( 65$ From Rate Table)",
+                            "totalUnearnedIncomeAmount": 895,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 895,
+                            "evaluatedRuleDescription": "Subtract Actual Earned Income Deduction [ $65 ] From Total Earned Income [ $0 ]."
+                        },
+                        {
+                            "ruleName": "Row 12 Income_Common_HouseholdDeductionDetermination",
+                            "ruleDescription": "ABD - Earned Income 50% Deduction",
+                            "totalUnearnedIncomeAmount": 895,
+                            "totalEarnedIncomeAmount": 0,
+                            "totalDeemedIncomeAmount": 0,
+                            "totalIncomeAmount": 895,
+                            "evaluatedRuleDescription": "Subtract Constant Amount Of $0 From Total Earned Income [ $0 ]."
+                        }
+                    ]
+                }
+            }
+        ]
+    }
